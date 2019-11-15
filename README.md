@@ -11,12 +11,12 @@ Model overview:
 1. code to define the networks: oogan_models.py, oogan_modules.py
 2. to train the model on your data, first prepare your images inside a root folder with subfolders containing your images, then edit the "config.py" for all hyperparameter settings, templetes are provided inside, 
    then run 
-    ```python
+    ```shell
     python train.py
     ```  
    the training will print log on terminal, and save the generated models and images during training.  
 3. to generate images from trained model, first edit the model path in "generate.py", then run:
-   ```python
+   ```shell
    python generate.py
    ```
    
@@ -26,8 +26,10 @@ On celebA:
 ![Alt text](demo/celebA_more.png?raw=true "Title")
 
 On 3D chair:
-![Alt text](demo/chair_continue.png?raw=true "Title" =100x20)
-![Alt text](demo/chair_discrete.png?raw=true "Title" =100x20)
+<img src="demo/chair_continue.png" alt="drawing" width="200"/>
+
+![Alt text](demo/chair_continue.png =100x20)
+![Alt text](demo/chair_discrete.png =100x20)
 
 On MNIST:
 ![Alt text](demo/mnist.png?raw=true "Title" =100x20)
