@@ -26,16 +26,15 @@ On celebA:
 ![Alt text](demo/celebA_more.png?raw=true "Title")
 
 On 3D chair:
-<img src="demo/chair_continue.png" alt="drawing" width="200"/>
+<img src="demo/chair_continue.png" alt="drawing" width="300"/>
+<img src="demo/chair_discrete.png" alt="drawing" width="300"/>
 
-![Alt text](demo/chair_continue.png =100x20)
-![Alt text](demo/chair_discrete.png =100x20)
 
 On MNIST:
-![Alt text](demo/mnist.png?raw=true "Title" =100x20)
+<img src="demo/mnist.png" alt="drawing" width="600"/>
 
 On dSprite:
-![Alt text](demo/fig_dsprites.png?raw=true "Title" =100x20)
+<img src="demo/fig_dsprites.png" alt="drawing" width="600"/>
 
 
 # OOGAN based on styleGAN
