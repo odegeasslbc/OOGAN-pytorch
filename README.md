@@ -1,6 +1,8 @@
 # OOGAN-pytorch
 Pytorch implementation of the paper: [OOGAN: Disentangling GAN with One-Hot Sampling and Orthogonal Regularization](https://arxiv.org/abs/1905.10836)
 
+# result demo
+![Alt text](demo/celebA_more.png?raw=true "Title")
 
 # OOGAN based on vanilla GAN
 
