@@ -6,17 +6,17 @@ Model overview:
 
 # Train results
 On celebA:
-![Alt text](demo/celebA_more.png?raw=true "Title"){:height="50%" width="50%"}
+![Alt text](demo/celebA_more.png?raw=true "Title")
 
 On 3D chair:
-![Alt text](demo/chair_continue.png?raw=true "Title"){:height="50%" width="50%"}
-![Alt text](demo/chair_discrete.png?raw=true "Title"){:height="50%" width="50%"}
+![Alt text](demo/chair_continue.png?raw=true "Title")
+![Alt text](demo/chair_discrete.png?raw=true "Title")
 
 On MNIST:
-![Alt text](demo/mnist.png?raw=true "Title"){:height="50%" width="50%"}
+![Alt text](demo/mnist.png?raw=true "Title")
 
 On dSprite:
-![Alt text](demo/fig_dsprites.png?raw=true "Title"){:height="50%" width="50%"}
+![Alt text](demo/fig_dsprites.png?raw=true "Title")
 
 # OOGAN based on vanilla GAN
 
