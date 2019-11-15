@@ -4,19 +4,7 @@ Pytorch implementation of the paper: [OOGAN: Disentangling GAN with One-Hot Samp
 Model overview:
 ![Alt text](demo/overview.png?raw=true "Title")
 
-# Train results
-On celebA:
-![Alt text](demo/celebA_more.png?raw=true "Title")
 
-On 3D chair:
-![Alt text](demo/chair_continue.png?raw=true "Title")
-![Alt text](demo/chair_discrete.png?raw=true "Title")
-
-On MNIST:
-![Alt text](demo/mnist.png?raw=true "Title")
-
-On dSprite:
-![Alt text](demo/fig_dsprites.png?raw=true "Title")
 
 # OOGAN based on vanilla GAN
 
@@ -32,6 +20,22 @@ On dSprite:
    python generate.py
    ```
    
+   
+# Train results
+On celebA:
+![Alt text](demo/celebA_more.png?raw=true "Title")
+
+On 3D chair:
+![Alt text](demo/chair_continue.png?raw=true "Title" =100x20)
+![Alt text](demo/chair_discrete.png?raw=true "Title" =100x20)
+
+On MNIST:
+![Alt text](demo/mnist.png?raw=true "Title" =100x20)
+
+On dSprite:
+![Alt text](demo/fig_dsprites.png?raw=true "Title" =100x20)
+
+
 # OOGAN based on styleGAN
 This implementation is based on the stylegan implementation from [here](https://github.com/rosinality/style-based-gan-pytorch),
 please refer to that repo for updated code and usage.
