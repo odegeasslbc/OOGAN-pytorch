@@ -17,6 +17,8 @@ Pytorch implementation of the paper: [OOGAN: Disentangling GAN with One-Hot Samp
    ```
    
 # OOGAN based on styleGAN
+This implementation is based on the stylegan implementation from [here](https://github.com/rosinality/style-based-gan-pytorch),
+please refer to that repo for updated code and usage.
 
 1. code: ./oogan_stylegan/oo_stylegan_train.py, 
          ./oogan_stylegan/oo_stylegan_modules.py
