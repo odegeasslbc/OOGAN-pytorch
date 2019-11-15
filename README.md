@@ -1,7 +1,21 @@
 # OOGAN-pytorch
 Pytorch implementation of the paper: [OOGAN: Disentangling GAN with One-Hot Sampling and Orthogonal Regularization](https://arxiv.org/abs/1905.10836)
 
+Model overview:
+![Alt text](demo/overview.png?raw=true "Title")
+
 # Train results
+On celebA:
+![Alt text](demo/celebA_more.png?raw=true "Title")
+
+On 3D chair:
+![Alt text](demo/chair_continue.png?raw=true "Title")
+![Alt text](demo/chair_discrete.png?raw=true "Title")
+
+On MNIST:
+![Alt text](demo/mnist.png?raw=true "Title")
+
+On 3D chair:
 ![Alt text](demo/celebA_more.png?raw=true "Title")
 
 # OOGAN based on vanilla GAN
