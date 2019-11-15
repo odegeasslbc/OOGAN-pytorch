@@ -44,7 +44,7 @@ please refer to that repo for updated code and usage.
 1. code: ./oogan_stylegan/oo_stylegan_train.py, 
          ./oogan_stylegan/oo_stylegan_modules.py
 2. to train the model on your data
-   ```python
+   ```shell
    python oo_stylegan_train.py /path/to/image_root
    ```  
    the training will print log on terminal and save the generated models and images during training.
