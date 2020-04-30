@@ -22,9 +22,9 @@ def train(net, dataloader):
     saved_image_folder, saved_model_folder = make_folders(config["SAVE_FOLDER"], TRIAL_NAME, config)
 
     for n_iter in tqdm.tqdm(range(0, MAX_ITERATION+1)):
-        if n_iter % SAVE_IMAGE_INTERVAL == 0:
+        if n_iter % SAVE_IMAGE_INTERVAL == 0 and n_iter>1:
             net.generate_random_sample(save_path=pjoin(saved_image_folder, "random_%d.jpg"%n_iter))
-        if n_iter % SAVE_MODEL_INTERVAL == 0:
+        if n_iter % SAVE_MODEL_INTERVAL == 0 and n_iter>1:
             #torch.save(net.state_dict(), pjoin(saved_model_folder, "%d.pth"%n_iter))    
             net.save( pjoin(saved_model_folder, "%d.pth"%n_iter) )
             
